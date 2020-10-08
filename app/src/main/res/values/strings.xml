@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MisContactos</string>
+    <string name="nombre">Nombre completo</string>
+    <string name="telefono">Télefono</string>
+    <string name="email">Email</string>
+    <string name="pnombre">nombre</string>
+    <string name="ptelefono">095887777</string>
+    <string name="pemail">william@gmail.com</string>
+    <string name="descripcion">Descripción Contacto</string>
+    <string name="btnSiguiente">Siguiente</string>
+    <string name="tvTitulo">Confirmar Datos</string>
+    <string name="tvFechaNac">Fecha Nacimiento:</string>
+    <string name="tvTel">Tel:</string>
+    <string name="tvEmail">Email:</string>
+    <string name="tvDesc">Descripcion:</string>
+    <string name="btnEditarDatos">Editar Datos</string>
+    <string name="tvPruebaName">William Brum</string>
+    <string name="tvPruebaFechaNac">07/03/1995</string>
+    <string name="tvPruebaDesc">Compañero del trabajo</string>
+
+
+</resources>

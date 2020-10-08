@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include android:id="@+id/miActionBar"
+        layout="@layout/actionbar"></include>
+
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nombre"
+            android:layout_marginTop="@dimen/margin_editeText"
+            android:layout_marginLeft="@dimen/margin_editeText"
+            android:layout_marginRight="@dimen/margin_editeText">
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="162dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_weight="40">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvFechaNac"
+                android:layout_gravity="center_horizontal"/>
+
+            <DatePicker
+                android:id="@+id/dpFecha"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:calendarViewShown="false">
+
+            </DatePicker>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/etTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/telefono"
+            android:inputType="phone"
+            android:layout_marginLeft="@dimen/margin_editeText"
+            android:layout_marginRight="@dimen/margin_editeText"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:layout_marginLeft="@dimen/margin_editeText"
+            android:layout_marginRight="@dimen/margin_editeText"/>
+
+        <EditText
+            android:id="@+id/etDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/descripcion"
+            android:inputType="textMultiLine"
+            android:lines="2"
+            android:maxLines="2"
+            android:layout_marginLeft="@dimen/margin_editeText"
+            android:layout_marginRight="@dimen/margin_editeText"/>
+
+        <Button
+            android:id="@+id/btnSiguiente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnSiguiente"
+            android:theme="@style/MiBotonRaized"/>
+
+
+</LinearLayout>
